@@ -1,5 +1,7 @@
 ---
-title: "HelloWorld"
+title: "Hello World"
+author: "Pawan Jain"
+date: "03/11/2020"
 output: word_document
 ---
 
@@ -7,5 +9,15 @@ output: word_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Hello World Program
 
-## This is a markdown file
+This is My first R Markdown document. 
+
+```{r My Program}
+paste("Hello World!")
+```
+
+```{r, echo=TRUE}
+```
+
+
